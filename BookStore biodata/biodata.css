@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url(../homePage/pawel-czerwinski-Slf8QxaFIWw-unsplash.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+.nav{
+  display: flex;
+  /* border: 2px solid black; */
+  padding: 5px;
+  justify-content: space-between;
+  position: relative;
+  /* background-color: rgb(97, 130, 221); */
+  color: rgb(0, 0, 0);
+  /* padding-top: 5px; */
+  margin-top: 5px;
+  border-radius: 30px;
+  
+}
+
+.left1{
+  position: absolute;
+  left: 55px;
+  top: 12px;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left{
+  display: flex;
+  justify-content: space-around;
+}
+
+.right{
+  position: absolute;
+  left: 1280px;
+  top: 12px;
+  
+}
+
+.right > input:focus{
+  outline: none;
+} 
+
+input{
+  box-sizing: border-box;
+ font-size: 18px; 
+ /* padding: 2px 0 2px 23px; */
+ padding: 2px;
+ border: white;
+ border-radius: 25px;
+ padding-left: 15px;
+}
+
+.right > img{
+  position: absolute;
+  top: 4px;
+  left: 214px;
+  
+}
+
+.middle{
+  position: absolute;
+  left: 580px;
+  top: 17px;
+  font-size: 20px;
+  
+}
+
+.middle > a{
+  color: rgb(0, 0, 0);
+}
+
+a:hover{
+  color: rgb(70, 95, 186);
+}
+
+button{
+  padding: 8px;
+  margin: 2px;
+  border-radius: 10px;
+  /* border: white; */
+}
+
+a{
+  margin: 10px;
+  text-decoration: none;
+}
+
+.left > h2{
+  font-family: "Merienda", cursive;
+  margin-left: 4px;
+  margin-top: 6px;
+}
+
+.inner{
+  margin-top: 50px;
+}
+
+.inner > p{
+  margin: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
